@@ -1,0 +1,4 @@
+'use client';
+import type {PrintArea,Product,ProductColor} from '../data/products';
+export function Preview({product,color,area,image,text,onRotate,rotateLabel}:{product:Product;color:ProductColor;area:PrintArea;image?:string;text?:string;onRotate:()=>void;rotateLabel:string}){const hoodie=product.id.includes('hoodie');return <section className="studioCanvas"><div className="studioPreviewToolbar"><span className="badge">{area}</span><button className="secondary" onClick={onRotate}>↻ {rotateLabel}</button></div><div className={'studioGarment '+(hoodie?'hoodie':'')} style={{'--garment-color':color.hex} as React.CSSProperties}>{hoodie&&<div className="studioHood"/>}<div className="studioPrintZone">{image&&<img src={image} alt="Uploaded design" className="studioDesignImage"/>}{text&&<div className="studioDesignText">{text}</div>}</div></div></section>}
+
