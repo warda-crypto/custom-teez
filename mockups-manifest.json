@@ -1,0 +1,62 @@
+{
+  "tshirt": {
+    "black": {
+      "front": "/mockups/tshirt/black/front.jpg",
+      "back": "/mockups/tshirt/black/back.jpg",
+      "left-sleeve": "/mockups/tshirt/black/left-sleeve.jpg",
+      "right-sleeve": "/mockups/tshirt/black/right-sleeve.jpg"
+    },
+    "white": {
+      "front": "/mockups/tshirt/white/front.jpg",
+      "back": "/mockups/tshirt/white/back.jpg",
+      "left-sleeve": "/mockups/tshirt/white/left-sleeve.jpg",
+      "right-sleeve": "/mockups/tshirt/white/right-sleeve.jpg"
+    },
+    "sand": {
+      "front": "/mockups/tshirt/sand/front.jpg",
+      "back": "/mockups/tshirt/sand/back.jpg",
+      "left-sleeve": "/mockups/tshirt/sand/left-sleeve.jpg",
+      "right-sleeve": "/mockups/tshirt/sand/right-sleeve.jpg"
+    }
+  },
+  "hoodie": {
+    "black": {
+      "front": "/mockups/hoodie/black/front.jpg",
+      "back": "/mockups/hoodie/black/back.jpg",
+      "left-sleeve": "/mockups/hoodie/black/left-sleeve.jpg",
+      "right-sleeve": "/mockups/hoodie/black/right-sleeve.jpg"
+    },
+    "white": {
+      "front": "/mockups/hoodie/white/front.jpg",
+      "back": "/mockups/hoodie/white/back.jpg",
+      "left-sleeve": "/mockups/hoodie/white/left-sleeve.jpg",
+      "right-sleeve": "/mockups/hoodie/white/right-sleeve.jpg"
+    },
+    "sand": {
+      "front": "/mockups/hoodie/sand/front.jpg",
+      "back": "/mockups/hoodie/sand/back.jpg",
+      "left-sleeve": "/mockups/hoodie/sand/left-sleeve.jpg",
+      "right-sleeve": "/mockups/hoodie/sand/right-sleeve.jpg"
+    }
+  },
+  "sweatshirt": {
+    "black": {
+      "front": "/mockups/sweatshirt/black/front.jpg",
+      "back": "/mockups/sweatshirt/black/back.jpg",
+      "left-sleeve": "/mockups/sweatshirt/black/left-sleeve.jpg",
+      "right-sleeve": "/mockups/sweatshirt/black/right-sleeve.jpg"
+    },
+    "white": {
+      "front": "/mockups/sweatshirt/white/front.jpg",
+      "back": "/mockups/sweatshirt/white/back.jpg",
+      "left-sleeve": "/mockups/sweatshirt/white/left-sleeve.jpg",
+      "right-sleeve": "/mockups/sweatshirt/white/right-sleeve.jpg"
+    },
+    "sand": {
+      "front": "/mockups/sweatshirt/sand/front.jpg",
+      "back": "/mockups/sweatshirt/sand/back.jpg",
+      "left-sleeve": "/mockups/sweatshirt/sand/left-sleeve.jpg",
+      "right-sleeve": "/mockups/sweatshirt/sand/right-sleeve.jpg"
+    }
+  }
+}
