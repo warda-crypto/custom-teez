@@ -1,0 +1,3 @@
+
+import {DashboardShell} from '@/components/dashboard-shell'
+export default function Staff(){const items=[{href:'/staff/orders',label:'Orders'},{href:'/staff/walk-in',label:'Walk-in Order'},{href:'/staff/customers',label:'Customers & QR'}];return <DashboardShell title="Today’s Orders" role="Employee Workspace" items={items}><div className="card"><table className="table"><thead><tr><th>Order</th><th>Customer</th><th>Product</th><th>Status</th></tr></thead><tbody><tr><td>CT-0001</td><td>Sample customer</td><td>T-Shirt</td><td><span className="badge">Paid — Review</span></td></tr></tbody></table></div></DashboardShell>}

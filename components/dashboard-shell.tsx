@@ -1,0 +1,3 @@
+
+import Link from 'next/link'
+export function DashboardShell({title,role,items,children}:{title:string;role:string;items:{href:string;label:string}[];children:React.ReactNode}){return <div className="shell dashboard"><aside className="side"><div className="brand">CUSTOM <span>teez</span></div><p className="muted">{role}</p>{items.map(i=><Link key={i.href} href={i.href}>{i.label}</Link>)}<Link href="/">Public website</Link></aside><main className="main"><div className="top"><div><h1 style={{fontSize:40,letterSpacing:-2,margin:0}}>{title}</h1><p className="muted">Live business workspace</p></div><span className="badge">Secure role access</span></div>{children}</main></div>}

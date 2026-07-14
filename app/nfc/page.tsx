@@ -1,0 +1,3 @@
+
+import Link from 'next/link';import {PublicNav} from '@/components/public-nav'
+export default function NFC(){return <div className="shell"><PublicNav/><main className="container section" style={{maxWidth:760,textAlign:'center'}}><span className="eyebrow">Tap • Customize • Pay • Pick Up Today</span><h1 style={{fontSize:68}}>Welcome to <span className="grad">Custom teez</span></h1><div className="grid3"><Link className="card" href="/design-studio"><h3>Start Designing</h3></Link><Link className="card" href="/premade-designs"><h3>Premade Designs</h3></Link><Link className="card" href="/track-order"><h3>Track Order</h3></Link></div></main></div>}
