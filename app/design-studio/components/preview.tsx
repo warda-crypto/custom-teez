@@ -19,6 +19,7 @@ type PreviewProps = {
   area: PrintArea;
   image?: string;
   text?: string;
+  vinylColorHex?: string;
   onRotate: () => void;
   rotateLabel: string;
 };
@@ -35,13 +36,17 @@ function getGarmentView(area: PrintArea): GarmentView {
   if (area === 'leftSleeve') return 'left-sleeve';
   if (area === 'rightSleeve') return 'right-sleeve';
 
-  // Pocket وHood يظهروا حاليًا على واجهة الأمام
   return 'front';
 }
 
 function getGarmentColor(colorId: string): GarmentColor {
   if (colorId === 'white') return 'white';
-  if (colorId === 'sand' || colorId === 'tan' || colorId === 'khaki') {
+
+  if (
+    colorId === 'sand' ||
+    colorId === 'tan' ||
+    colorId === 'khaki'
+  ) {
     return 'sand';
   }
 
@@ -54,6 +59,7 @@ export function Preview({
   area,
   image,
   text,
+  vinylColorHex = '#FFFFFF',
   onRotate,
   rotateLabel,
 }: PreviewProps) {
@@ -95,7 +101,12 @@ export function Preview({
           )}
 
           {text && (
-            <div className="studioDesignText">
+            <div
+              className="studioDesignText"
+              style={{
+                color: vinylColorHex,
+              }}
+            >
               {text}
             </div>
           )}
